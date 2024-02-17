@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+  src: url('path_to_fonts_folder/CursedTimerULiL.woff2') format('woff2'),
+       url('path_to_fonts_folder/CursedTimerULiL.woff') format('woff');
+  /* Add additional font formats if necessary */
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color:  #1B244A;
+}
+
+.score, .score1 {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 130px;
+    margin: 20px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385;
+    margin: 0 auto 100px auto;
+    background: #1B244A;
+    border-radius: 10px; 
+}
+
+button {
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    justify-content: space-between;
+    
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.column h3{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.remove {
+    margin: 220px auto 5px auto;
+
+}
+

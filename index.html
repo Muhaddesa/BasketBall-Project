@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 id="count-el" class="score">12</h2>
+                <div>
+                    <button id="plusOneBtn" onclick="oneIncrement()">+1</button>
+                    
+                    <button id= "plusTwoBtn" onclick="twoIncrement()">+2</button>
+                    <button id= "plusThreeBtn" onclick="threeIncrement()">+3</button>
+                </div>
+            </div>
+            <div>
+            <button class="btn remove" onclick="remove()">Remove</button> 
+        </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 id= "count-el-guest" class="score1">5</h2>
+                <div>
+                    <button id="plusOneBtn" onclick="oneIncrementg()">+1</button>
+                    
+                    <button id= "plusTwoBtn" onclick="twoIncrementg()">+2</button>
+                    <button id= "plusThreeBtn" onclick="threeIncrementg()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
